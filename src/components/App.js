@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react'
 import ReactMarkdowm from 'react-markdown'
 
 const App = () => {
-    const [markdown, setMarkdown] = useState('Hello World\n# Heading')
+    const [markdown, setMarkdown] = useState('Hello World # Heading')
     const [loading, setLoading] = useState(true);
 
     useEffect(() => {
