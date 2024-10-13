@@ -28,6 +28,7 @@ const App = () => {
                     placeholder='Write your markdown here...'
                 />
                 <div className='preview'>
+                    <h1>Heading</h1>
                     <ReactMarkdowm>{markdown}</ReactMarkdowm>
                 </div>
             </div>
